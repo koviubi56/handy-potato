@@ -16,6 +16,7 @@ Open an issue or pull request, and we can discuss the changes.
 
 ## List of standards
 
-| Number      | Summary                 |
-| ----------- | ----------------------- |
-| [1](hp1.md) | Python Style Guidelines |
+| Number      | Summary                    |
+| ----------- | -------------------------- |
+| [1](hp1.md) | Python Style Guidelines    |
+| [2](hp2.md) | PGP public key publication |
