@@ -61,13 +61,13 @@ Latest bitcoin block hash: <Latest bitcoin block hash>
 
 The PGP clear text signature MUST be signed by any of the keys within "Current PGP public key". The canary MUST NOT be repeated for every single PGP key.
 
-### Revoken keys
+### Revoked keys
 
 The following lines MUST be present in the File (backslashes MUST NOT be included; including empty new lines; things within `<>` MUST be replaced appropriately):
 
 ```markdown
 
-## Revoken PGP public keys
+## Revoked PGP public keys
 
 I hereby revoke all previous PGP keys associated with my identity.
 Do not encrypt communications to my old keys. If you send me messages encrypted to an old key I will not read them.
