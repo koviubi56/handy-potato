@@ -1,6 +1,6 @@
 # Handy Potato: 2 - PGP public key publication
 
-Version 1
+Version 2
 
 ## Abstract
 
