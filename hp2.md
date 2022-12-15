@@ -42,7 +42,7 @@ PGP public keys that are not trusted MUST NOT be listed.
 
 ### Canary
 
-The following lines MUST be present in the File (backslashes MUST NOT be included; including empty new lines; things within `<>` MUST be replaced appropriately):
+The following lines MAY be present in the File (backslashes MUST NOT be included; including empty new lines; things within `<>` MUST be replaced appropriately):
 
 ```markdown
 
@@ -60,6 +60,8 @@ Latest bitcoin block hash: <Latest bitcoin block hash>
 ```
 
 The PGP clear text signature MUST be signed by any of the keys within "Current PGP public key". The canary MUST NOT be repeated for every single PGP key.
+
+Please note, that this canary is OPTIONAL. If you choose to include it, then you MUST include everything, and if you choose to not include it, then you MUST NOT include anything about the canary stated above.
 
 ### Revoked keys
 
