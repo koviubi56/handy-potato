@@ -18,7 +18,6 @@ The guidelines stated here should only be used if it is reasonable, and it isn't
   - If you cannot break a line, try to use a backslash (`\`)
   - Line breaks (as stated in PEP 8) should be BEFORE any operators
   - Code MUST (only) use UTF-8.
-  - Names (variable, function, file, ...) SHOULD use snake_case; class names SHOULD use CapWords (CamelCase).
   - Except for one-line ones, docstring MUST have a new line after the opening, and before the closing([example](https://github.com/sco1/flake8-annotations/blob/7e44ba73866e92fcce8d1c9ca082ffaabec99d9c/flake8_annotations/checker.py#L53-L58)). (This is permitted by [PEP 257](https://archive.ph/kY0Hw#selection-615.313-615.399).)
   - As described in PEP 257, double-quotes MUST be used for docstrings.
 
@@ -55,6 +54,12 @@ The guidelines stated here should only be used if it is reasonable, and it isn't
 - f-strings SHOULD be used instead of "{}".format() and "" + x + "". In f-strings `{x!r}` (and others) MUST be used instead of `{repr(x)}`.
 
 - Too broad `except`s SHOULD NOT be used, unless reasonable (because there are situations where you do need it).
+
+- The code SHOULD have comments. Older codes that don't have enough/good comments SHOULD be updated.
+
+#### Variable names
+
+- Per PEP 8 names (variable, function, file, ...) MUST use snake_case; class names MUST use CapWords (CamelCase).
 
 #### Docstrings
 
